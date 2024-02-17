@@ -1,7 +1,7 @@
 # My Journey with Java
 
 <p align="center">
-  <img src="java_logo.png" alt="Project Logo" width="200" height="200">
+  <img src="Java_logo.png" alt="Project Logo" width="200" height="200">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
