@@ -22,13 +22,19 @@ Mathematical formulas are often made more accessible by using parenthesis. Howev
 
 Firstly, I will make the **Infix to Postfix**  converter. For that, I will need to follow a set of rules:
     *Stack data structure will be used*, thus I will need to pop and append elements in accordance to their precedence:
+    
      1. Highest Priority operator: ^
+     
      2. Medium Priority operator: / *
+     
      3. Lowest Priority operators: - +  // the Parenthesis won't be counted as operators
 
 The rules I will have to follow:
+
     1. No two operators of same priority can stay together in stack. The one pushed on top first will have to be popped before the second one gets added.
+    
     2. Lower priority operators can not be placed on top of those with higher priority, thus the one with higher priority will have to be popped first.
+    
     3. If an operator is enclosed between two parenthesis () in the stack, then it has to be popped.
 
 That being said, I can now begin writing the code for out converter! Woohoo!
