@@ -28,6 +28,12 @@ Firstly, I will make the **Infix to Postfix**  converter. For that, I will need 
      2. Medium Priority operator: / *
      
      3. Lowest Priority operators: - +  // the Parenthesis won't be counted as operators
+     
+Here are the 3 static arrays I created to store the operators of the 3 priority levels:
+
+        char[] highestPriority = {'^'};
+        char[] mediumPriority = {'/', '*'};
+        char[] lowestPriority = {'-', '+'};
 
 The rules I will have to follow:
 
