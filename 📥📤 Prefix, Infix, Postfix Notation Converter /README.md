@@ -45,6 +45,8 @@ The rules I will have to follow:
 
 That being said, I can now begin writing the code for out converter! Woohoo!
 
+!! The code is now almost ready, but needs to be debugged. I will do that slightly later, so please know that it does not yet work!!
+
 ## 🗂️ Installation
 
 The code now fully works. I now need to develop the converter into other notation types, making it universal. This will be done a bit later. 
